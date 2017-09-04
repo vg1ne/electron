@@ -1,24 +1,31 @@
 {
   "name": "electronTest",
+  "productName": "vgoreiko",
   "version": "1.0.0",
-  "description": "",
+  "description": "my test electron program",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron index.js"
+    "start": "electron index.js",
+    "package": "build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vg1ne/electron.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "vgoreiko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vg1ne/electron/issues"
   },
   "homepage": "https://github.com/vg1ne/electron#readme",
   "devDependencies": {
-    "electron": "^1.7.5"
+    "electron": "^1.7.5",
+    "electron-builder": "^19.27.3"
+  },
+  "build":{
+    "appId": "com.vgoreiko.vgoreikoElectron",
+    "files": "!build-assets{*/}"
   }
 }
