@@ -1,0 +1,24 @@
+{
+  "name": "electronTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vg1ne/electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vg1ne/electron/issues"
+  },
+  "homepage": "https://github.com/vg1ne/electron#readme",
+  "devDependencies": {
+    "electron": "^1.7.5"
+  }
+}
